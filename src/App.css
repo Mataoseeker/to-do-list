@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+}
+.heading {
+  color: blue;
+}
+
+input {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: blueviolet;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px;
+  /* margin-top:50px ; */
+  color: white;
+}
+
+.block-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.task-added {
+  color: white;
+  /* background-color: pink; */
+  margin-left: 500px;
+  text-align: center;
+}
+
+.second-button {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+}
+
+/* Media Query */
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .task-added {
+    margin-left: 90px;
+    width: 50%;
+  }
+  .block-div {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 70%;
+    font-size: 15px;
+  }
+  .button {
+    padding: 10px;
+    background-color: blue;
+  }
+  .second-button {
+    padding: 8px;
+    width: 30%;
+    margin-left: 120px;
+    background-color: blue;
+  }
+}
