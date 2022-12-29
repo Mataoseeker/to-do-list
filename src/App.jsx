@@ -22,7 +22,7 @@ setTodo (todo.filter((task) => task.id !== id));
 
   return (
     <div className="App">
-      <h2 className="heading">My To Do List </h2>
+      <h2 className="heading"> To Do List </h2>
       <div className="inputs">
         <input type="text" placeholder="Enter your task" onChange={handleChange}/>
         <button className="button" onClick={addTask}>Add Task</button>
@@ -35,6 +35,9 @@ setTodo (todo.filter((task) => task.id !== id));
              </div>
         })}
       </div>
+      <footer>
+      <p className="footer">Designed with <span>&hearts;</span> by Martha Ochuko || 2022</p>
+      </footer>
     </div>
   );
 }
