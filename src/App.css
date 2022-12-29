@@ -51,14 +51,14 @@ input {
 .footer{
   color: white;
   margin-top:350px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 /* Media Query */
 
 @media (min-width: 320px) and (max-width: 500px) {
   .task-added {
-    margin-left: 90px;
+    margin-left: 80px;
     width: 50%;
   }
   .block-div {
@@ -76,7 +76,10 @@ input {
   .second-button {
     padding: 8px;
     width: 30%;
-    margin-left: 120px;
+    margin-left: 110px;
     background-color: blue;
+  }
+  .heading{
+    color: blue;
   }
 }
